@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\qamaster_font_awesome.ttf",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\raw\\qamaster_font_awesome.ttf"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\qamaster_font_montserrat_bold.ttf",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\raw\\qamaster_font_montserrat_bold.ttf"
+    }
+]

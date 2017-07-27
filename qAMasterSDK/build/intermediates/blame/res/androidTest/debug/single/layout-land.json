@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_login_normal.xml",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_login_normal.xml"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_feedback.xml",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_feedback.xml"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_header_normal.xml",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_header_normal.xml"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_header_quick.xml",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_header_quick.xml"
+    }
+]

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888"/>
+
+    <LinearLayout
+        android:id="@+id/ll_item_shangpinfenlei"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+       >
+
+        <RelativeLayout
+            android:id="@+id/iv_item_shangpinfenlei_select"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/fenlei_shanchu_button" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_item_shangpinfenlei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品分类"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+        <RelativeLayout
+            android:id="@+id/iv_xiaoqufuwu_wuyejiaofei_edit"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/b_c_b_a_btn_amend"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

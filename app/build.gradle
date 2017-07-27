@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    packagingOptions {
+        exclude "lib/x86/librealm-jni.so"
+        exclude "lib/mips/librealm-jni.so"
+        exclude "lib/armeabi/librealm-jni.so"
+        exclude "lib/arm64-v8a/librealm-jni.so"
+        exclude "lib/x86_64/librealm-jni.so"
+        exclude "lib/armeabi-v7a/librealm-jni.so"
+    }
+
+    defaultConfig {
+        applicationId "com.bjxiyang.zhinengshequ.shop"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a','x86', 'x86_64', 'mips', 'mips64'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "d90819f8b61cd1eec4d5626f", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "bjxiyang.shop", //用户渠道统计的渠道名称
+        ]
+
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    dexOptions{
+        jumboMode = true
+        javaMaxHeapSize "4g"
+        preDexLibraries=false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    //滑动返回的依赖
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    //商超的依赖
+    compile 'com.flipboard:bottomsheet-core:1.5.1'
+    //滑动选择Fragment的依赖
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    //RecyclerView的依赖
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile project(path: ':imoocsdk')
+    compile project(path: ':myapplication')
+    compile files('libs/commons-lang-2.6.jar')
+    compile files('libs/gprintersdkv22.jar')
+    compile files('libs/jcc-bate-0.7.3.jar')
+    compile files('libs/ksoap2-android-assembly-2.5.2-jar-with-dependencies.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    //鲁班的依赖，用于图片压缩
+    compile 'top.zibin:Luban:1.1.2'
+    //极光推送的依赖
+    compile 'cn.jiguang.sdk:jpush:3.0.5'
+    // 此处以JPush 3.0.5 版本为例。
+    compile 'cn.jiguang.sdk:jcore:1.1.2'
+    compile project(':qAMasterSDK')
+}

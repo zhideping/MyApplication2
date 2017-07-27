@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="110dp"
+    android:orientation="vertical"
+    android:background="@drawable/a_a_bg_beijing">
+
+    <TextView
+        android:id="@+id/dialog_shangjiaorxiajia_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:text="是否删除此商品" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd">
+        
+    </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" 
+                android:gravity="center"
+                android:text="否"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#dddddd"></View>
+
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="是"
+                android:layout_weight="1" />
+        </LinearLayout>
+</LinearLayout>

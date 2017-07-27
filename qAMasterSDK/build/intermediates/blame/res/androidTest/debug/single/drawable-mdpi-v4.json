@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\bugtag_hint.png",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\bugtag_hint.png"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\success.png",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\success.png"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\text.png",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\text.png"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\pencil.png",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\pencil.png"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\clear.png",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\clear.png"
+    },
+    {
+        "merged": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\back.png",
+        "source": "F:\\code\\app\\MyApplication2(1)\\MyApplication2\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\back.png"
+    }
+]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="#4183FF"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+
+		<RelativeLayout
+			android:background="#4183FF"
+			android:layout_width="match_parent"
+			android:layout_height="40dp">
+
+			<RelativeLayout
+				android:id="@+id/rl_fanhui"
+				android:layout_width="40dp"
+				android:layout_height="64dp">
+
+				<ImageView
+					android:layout_width="15dp"
+					android:layout_marginLeft="12dp"
+					android:layout_marginTop="7dp"
+					android:layout_marginBottom="7dp"
+					android:layout_height="wrap_content"
+					android:src="@drawable/c_icon_fanhui"
+					android:layout_gravity="center" />
+
+
+			</RelativeLayout>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="打印机设置"
+				android:textColor="@color/white"
+				android:layout_centerInParent="true"
+				android:textSize="20sp" />
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/lvOperateList"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:dividerHeight="1dp" />
+    <RelativeLayout
+		android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black90"
+    android:layout_gravity="bottom">
+	      <TextView 
+	        android:id="@+id/tvCopyRightCn"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/copy_right_cn"
+	        android:gravity="center_horizontal"
+	        android:textSize="12sp"
+	        android:layout_marginBottom="20sp"
+	        android:layout_alignParentBottom="true"
+	        android:textColor="@color/white"
+	        />  
+	    <TextView 
+	        android:id="@+id/tvCopyRight"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/copy_right_en"
+	        android:gravity="center_horizontal"
+	        android:textSize="12sp" 
+	        android:layout_above="@id/tvCopyRightCn"     
+	          android:textColor="@color/white"
+	        />	        
+	</RelativeLayout>     
+</LinearLayout>

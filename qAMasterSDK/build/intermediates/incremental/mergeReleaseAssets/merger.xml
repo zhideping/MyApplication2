@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\code\app\MyApplication2(1)\MyApplication2\qAMasterSDK\src\main\assets"/><source path="F:\code\app\MyApplication2(1)\MyApplication2\qAMasterSDK\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="F:\code\app\MyApplication2(1)\MyApplication2\qAMasterSDK\src\release\assets"/></dataSet></merger>
